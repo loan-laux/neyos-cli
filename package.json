@@ -1,0 +1,21 @@
+{
+    "name": "neyos-cli",
+    "version": "0.1.0",
+    "description": "Command line for the Neyos tracker backoffice: trackers, configurations, webhook endpoints.",
+    "type": "module",
+    "bin": {
+        "neyos": "./bin/neyos.js"
+    },
+    "files": [
+        "bin",
+        "src/neyos.js"
+    ],
+    "scripts": {
+        "test": "node --test"
+    },
+    "engines": {
+        "node": ">=22"
+    },
+    "license": "MIT",
+    "repository": "github:loan-laux/neyos-cli"
+}
